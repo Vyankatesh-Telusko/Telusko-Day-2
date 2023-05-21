@@ -3,7 +3,7 @@ Project: Product Management App
 
 Assignment Tasks:
 
-*Implement search by place:*
+Implement search by place:
 def getProductsByPlace(self, place):
     str_ = place.lower()
     prods = []
@@ -15,7 +15,7 @@ def getProductsByPlace(self, place):
     
 The getProductsByPlace method takes a place parameter and returns a list of products that have a matching place.
 
-*Implement search by expired warranty:*
+Implement search by expired warranty:
 def getProductsByExpiredWarranty(self, year):
     prods = []
     for p in self.products:
@@ -25,7 +25,7 @@ def getProductsByExpiredWarranty(self, year):
     
 The getProductsByExpiredWarranty method takes a year parameter and returns a list of products whose warranty has expired before the given year.
 
-*Implement Stream API using list comprehensions:*
+Implement Stream API using list comprehensions:
 def getProductWithText(self, text):
     str_ = text.lower()
     prods = [p for p in self.products if str_ in p.name.lower() or str_ in p.type.lower() or str_ in p.place.lower()]
