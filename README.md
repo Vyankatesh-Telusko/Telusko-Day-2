@@ -1,9 +1,9 @@
 # Telusko-Day-2
 Project: Product Management App
 
-Assignment Tasks:
+## Assignment Tasks:
 
-Implement search by place:
+### Implement search by place:\n
 def getProductsByPlace(self, place):
     str_ = place.lower()
     prods = []
